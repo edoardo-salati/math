@@ -141,3 +141,44 @@ main p{
 
     object-fit:cover;
 }
+
+.talks {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.talk {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 2rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.date {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.conference {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.title {
+  color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
