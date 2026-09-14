@@ -169,7 +169,12 @@ main p{
   color: #333;
 }
 
-
+.talk-info {
+  margin-top: 0.5rem;
+  color: #777;
+  font-size: 0.9rem;
+  font-style: italic;
+}
 
 
 
