@@ -179,13 +179,13 @@ main p{
   /* Optional: Collapse borders to prevent double lines */
 table {
     border-collapse: collapse;
-    border-bottom: 1px solid #ddd;
+    width: 100%;
   }
   
-  .vertical-line {
-    border-left: 1px solid black; /* Adjust thickness and color as needed */
-    padding-left: 10px; /* Add padding to prevent text from touching the line */
-  }
+.table td {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
 
 
 
