@@ -186,11 +186,6 @@ main p{
     border-bottom: 1px solid #ccc;
 }
 
-/* Stronger line after each level */
-.my-table tr:nth-child(2n) td {
-    border-bottom: 2px solid black;
-}
-
 
 
 
