@@ -176,6 +176,15 @@ main p{
   font-style: italic;
 }
 
+  /* Optional: Collapse borders to prevent double lines */
+table {
+    border-collapse: collapse;
+  }
+  
+  .vertical-line {
+    border-left: 1px solid black; /* Adjust thickness and color as needed */
+    padding-left: 10px; /* Add padding to prevent text from touching the line */
+  }
 
 
 
