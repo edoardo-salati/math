@@ -184,6 +184,8 @@ main p{
 .my-table td {
     padding: 8px;
     border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+
 }
 
 
