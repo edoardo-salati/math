@@ -176,15 +176,19 @@ main p{
   font-style: italic;
 }
 
-  /* Optional: Collapse borders to prevent double lines */
-table {
+.my-table {
     border-collapse: collapse;
     width: 100%;
-  }
-  
-.table td {
+}
+
+.my-table td {
     padding: 8px;
     border-bottom: 1px solid #ccc;
+}
+
+/* Stronger line after each level */
+.my-table tr:nth-child(2n) td {
+    border-bottom: 2px solid black;
 }
 
 
